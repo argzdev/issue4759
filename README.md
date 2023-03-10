@@ -11,13 +11,13 @@
 - Steps: Run app version `1.0` without `FirebaseInitProvider` and `FirebaseApp.initializeApp`
 - Result: App start is recorded
 ### Scenario 2:
-- Steps: Run app version `1.0.1` with `FirebaseInitProvider` and `FirebaseApp.initializeApp` in `MainActivity`
+- Steps: Run app version `1.0.1` with `FirebaseApp.initializeApp` and `FirebaseInitProvider` disabled in `MainActivity`
 - Result: App start is not recorded
 ### Scenario 3:
 - Steps: Run app version `1.0.2` without `FirebaseInitProvider` and `FirebaseApp.initializeApp`
 - Result: App start is recorded
 ### Scenario 4:
-- Steps: Run app version `1.0.3` without `FirebaseInitProvider` and `FirebaseApp.initializeApp` in Application class `MainApplication`
+- Steps: Run app version `1.0.3` with `FirebaseApp.initializeApp` and `FirebaseInitProvider` disabled in Application class `MainApplication`
 - Result: App start is not recorded
 
 
