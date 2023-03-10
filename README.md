@@ -22,5 +22,5 @@
 
 
 ### Screenshot:
-- As we can see here, both version `1.0.1` and `1.0.3` is not recorded.
+- As we can see here, the app start time for both version `1.0.1` and `1.0.3` is not recorded.
 <img width="1280" alt="Screenshot 2023-03-10 at 6 28 19 PM" src="https://user-images.githubusercontent.com/93124282/224292804-9474e6b3-fa6e-41c0-b1d5-093eeb7ecae3.png">
